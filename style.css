@@ -38,14 +38,14 @@
 }
 
 .btn2 {
-  background-color: none;
   cursor: pointer;
   padding: 16px;
-  border: 1px solid black;
+  border: 1px solid #ffffff;
   border-radius: 4px;
-  color: #c59a9a;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 600;
+  box-sizing: border-box;
 }
 
 .btn:hover {
@@ -54,9 +54,7 @@
 
 .nav-container {
   display: flex;
-  /* justify-content: space-around; */
   width: auto;
-  /* max-width: 1600px; */
   height: 92px;
 }
 
@@ -88,7 +86,7 @@ nav .nav-container .logo a img {
   text-align: center;
   /* background-color: #ffffff; */
   background: url("./assets/hero-bg.png");
-  background-position: auto, bottom right;
+  background-position: auto;
   background-repeat: no-repeat;
   padding-top: 115.5px;
   padding-bottom: 179.5px;
@@ -97,14 +95,16 @@ nav .nav-container .logo a img {
 .banner-p1 {
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 0px;
   justify-content: center;
   color: #30b868;
   width: 229px;
+  height: 36px;
   border-radius: 8px;
-  padding: 20px, 20px;
+  padding: 12px, 80px;
   margin-bottom: 24px;
   font-size: 16px;
+  background-color: #ffffff;
 }
 
 .banner-p2 h1 {
@@ -247,13 +247,32 @@ nav .nav-container .logo a img {
 }
 
 footer {
-  margin: 120px auto 80px;
-  padding: 80px 40px;
+  margin: 120px auto 0px;
+  padding: 120px 120px 30px 120px;
   background-color: #001931;
   max-width: 1600px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  /* width: 1360px; */
+  height: 64px;
 }
 
 .f-logo {
   /* margin-top: 120px; */
   margin-left: 120px;
+}
+
+.social {
+  color: #ffffff;
+  margin-right: 120px;
+}
+
+.copyright {
+  margin-top: 110px;
+  color: #fafafa;
+  font-size: 16px;
+  text-align: center;
 }
