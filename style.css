@@ -1,3 +1,54 @@
 * {
-  background-color: aqua;
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+  max-width: 1600px;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.btn {
+  background-color: #469165;
+  cursor: pointer;
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #115d31;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  max-width: 1600px;
+  height: 92px;
+}
+
+nav .nav-container .logo a img {
+  margin: 16px 120px;
+  width: 139px;
+  height: 60px;
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+  font-size: 16px;
+  color: #000000;
+  margin: 34px auto;
+}
+
+.menu-btn {
+  margin: 24px;
 }
