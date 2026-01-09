@@ -1,9 +1,7 @@
 * {
   margin: 0px auto;
   padding: 0px;
-  /* background-color: #ffffff; */
   max-width: 1600px;
-  align-items: center;
   box-sizing: border-box;
 }
 
@@ -18,14 +16,6 @@
   align-items: center;
 }
 
-/* header #banner .banner-container {
-  background-color: #ffffff;
-  background: url("./assets/hero-bg.png"), #ffffff;
-  background-position: 23px 38px, bottom right;
-  background-repeat: no-repeat;
-  padding-top: 50px;
-} */
-
 .btn {
   background-color: #469165;
   cursor: pointer;
@@ -38,6 +28,7 @@
 }
 
 .btn2 {
+  background: transparent;
   cursor: pointer;
   padding: 16px;
   border: 1px solid #ffffff;
@@ -50,6 +41,10 @@
 
 .btn:hover {
   background-color: #115d31;
+}
+
+.btn2:hover {
+  background-color: #727674;
 }
 
 .nav-container {
@@ -72,19 +67,18 @@ nav .nav-container .logo a img {
   margin: 34px auto;
 }
 
+.menu a {
+  text-decoration: none;
+  color: #000000;
+}
+
 .menu-btn {
   margin: 24px 120px;
 }
 
-/* #banner .banner-bg img {
-  align-items: center;
-  background-repeat: space;
-} */
-
 .banner-container {
   align-items: center;
   text-align: center;
-  /* background-color: #ffffff; */
   background: url("./assets/hero-bg.png");
   background-position: auto;
   background-repeat: no-repeat;
@@ -93,15 +87,11 @@ nav .nav-container .logo a img {
 }
 
 .banner-p1 {
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  justify-content: center;
   color: #30b868;
   width: 229px;
   height: 36px;
-  border-radius: 8px;
-  padding: 12px, 80px;
+  border-radius: 20px;
+  padding: 8px 12px 8px 8px;
   margin-bottom: 24px;
   font-size: 16px;
   background-color: #ffffff;
@@ -139,7 +129,6 @@ nav .nav-container .logo a img {
 }
 
 .notes-heading h1 {
-  /* height: 116px; */
   margin-top: 25px;
   margin-bottom: 16px;
   font-size: 48px;
@@ -157,7 +146,6 @@ nav .nav-container .logo a img {
 .notes-card {
   display: flex;
   gap: 14px;
-  /* justify-content: space-around; */
   text-align: center;
   align-items: center;
   vertical-align: bottom;
@@ -191,6 +179,10 @@ nav .nav-container .logo a img {
   padding: 120px;
 }
 
+.brain-details {
+  align-content: center;
+}
+
 .brain-details p,
 .brain-details h1 {
   margin-bottom: 16px;
@@ -201,16 +193,9 @@ nav .nav-container .logo a img {
   columns: #469165;
 }
 
-/* .brain-bullets {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-content: flex-start;
-  justify-content: flex-start;
-  width: 700px;
+.brain-bullets p {
   margin-bottom: 16px;
-  text-align: left;
-} */
+}
 
 .brain-details h1 {
   font-size: 48px;
@@ -256,18 +241,24 @@ footer {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  /* width: 1360px; */
   height: 64px;
 }
 
 .f-logo {
-  /* margin-top: 120px; */
   margin-left: 120px;
 }
 
 .social {
   color: #ffffff;
   margin-right: 120px;
+}
+
+.social p {
+  margin-bottom: 16px;
+}
+
+.footer-icons a{
+  margin-right: 16px;
 }
 
 .copyright {
