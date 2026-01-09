@@ -1,7 +1,7 @@
 * {
   margin: 0px auto;
   padding: 0px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   max-width: 1600px;
   align-items: center;
   box-sizing: border-box;
@@ -78,10 +78,10 @@ nav .nav-container .logo a img {
   margin: 24px 120px;
 }
 
-#banner .banner-bg img {
+/* #banner .banner-bg img {
   align-items: center;
   background-repeat: space;
-}
+} */
 
 .banner-container {
   align-items: center;
@@ -134,6 +134,8 @@ nav .nav-container .logo a img {
 .notes {
   align-items: center;
   text-align: center;
+  width: 85%;
+  max-width: 1360px;
 }
 
 .notes-heading h1 {
@@ -180,4 +182,66 @@ nav .nav-container .logo a img {
   font-size: 24px;
   margin-bottom: 16px;
   font-weight: 700;
+}
+
+.brain-container {
+  display: flex;
+  gap: 60px;
+  vertical-align: middle;
+  padding: 120px;
+}
+
+.brain-details p,
+.brain-details h1 {
+  margin-bottom: 16px;
+}
+
+.brain-details p {
+  font-size: 16px;
+  columns: #469165;
+}
+
+/* .brain-bullets {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-content: flex-start;
+  justify-content: flex-start;
+  width: 700px;
+  margin-bottom: 16px;
+  text-align: left;
+} */
+
+.brain-details h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.access-container {
+  margin: auto 120px;
+  padding: 80px 40px;
+  text-align: center;
+  background-color: #f7f6f2;
+  width: 85%;
+  max-width: 1360px;
+}
+
+.access-container h1 {
+  margin-bottom: 16px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.access-container p {
+  margin-bottom: 24px;
+  font-size: 16px;
+  color: #627382;
+}
+
+.access-container button {
+  margin-bottom: 24px;
+}
+
+.access-container .TandC {
+  color: #627382;
 }
