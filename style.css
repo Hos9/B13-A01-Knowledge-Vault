@@ -109,16 +109,16 @@ nav .nav-container .logo a img {
 
 .banner-p2 h1 {
   font-size: 72px;
-  font-weight: 700px;
+  font-weight: 700;
   letter-spacing: 0px;
   line-height: 84px;
   width: 770px;
   margin-bottom: 16px;
-  background-color: none;
+  background: none;
 }
 
 .banner-p2 p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0px;
   line-height: 24px;
@@ -129,4 +129,55 @@ nav .nav-container .logo a img {
 .banner-btn button {
   margin-right: 16px;
   align-items: center;
+}
+
+.notes {
+  align-items: center;
+  text-align: center;
+}
+
+.notes-heading h1 {
+  /* height: 116px; */
+  margin-top: 25px;
+  margin-bottom: 16px;
+  font-size: 48px;
+  font-weight: 700;
+  position: bottom;
+}
+
+.notes-heading p {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 44px;
+}
+
+.notes-card {
+  display: flex;
+  gap: 14px;
+  /* justify-content: space-around; */
+  text-align: center;
+  align-items: center;
+  vertical-align: bottom;
+}
+
+.notes-card img {
+  background-color: #f95555;
+  border-radius: 50%;
+  padding: 14px;
+  margin-bottom: 16px;
+  margin-top: 70px;
+}
+.card-info {
+  box-shadow: 0px -1px 10px gray;
+  height: 300px;
+  width: 322px;
+  padding: 0px 24px;
+  border-radius: 8px;
+}
+
+.card-info h4 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-weight: 700;
 }
