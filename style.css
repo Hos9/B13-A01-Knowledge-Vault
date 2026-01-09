@@ -1,8 +1,10 @@
 * {
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
   background-color: #ffffff;
   max-width: 1600px;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .font-inter {
@@ -11,6 +13,18 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+.center-align {
+  align-items: center;
+}
+
+/* header #banner .banner-container {
+  background-color: #ffffff;
+  background: url("./assets/hero-bg.png"), #ffffff;
+  background-position: 23px 38px, bottom right;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+} */
 
 .btn {
   background-color: #469165;
@@ -23,15 +37,26 @@
   font-weight: 600;
 }
 
+.btn2 {
+  background-color: none;
+  cursor: pointer;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: #c59a9a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .btn:hover {
   background-color: #115d31;
 }
 
 .nav-container {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   width: auto;
-  max-width: 1600px;
+  /* max-width: 1600px; */
   height: 92px;
 }
 
@@ -50,5 +75,58 @@ nav .nav-container .logo a img {
 }
 
 .menu-btn {
-  margin: 24px;
+  margin: 24px 120px;
+}
+
+#banner .banner-bg img {
+  align-items: center;
+  background-repeat: space;
+}
+
+.banner-container {
+  align-items: center;
+  text-align: center;
+  /* background-color: #ffffff; */
+  background: url("./assets/hero-bg.png");
+  background-position: auto, bottom right;
+  background-repeat: no-repeat;
+  padding-top: 115.5px;
+  padding-bottom: 179.5px;
+}
+
+.banner-p1 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  color: #30b868;
+  width: 229px;
+  border-radius: 8px;
+  padding: 20px, 20px;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.banner-p2 h1 {
+  font-size: 72px;
+  font-weight: 700px;
+  letter-spacing: 0px;
+  line-height: 84px;
+  width: 770px;
+  margin-bottom: 16px;
+  background-color: none;
+}
+
+.banner-p2 p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 24px;
+  width: 770px;
+  margin-bottom: 32px;
+}
+
+.banner-btn button {
+  margin-right: 16px;
+  align-items: center;
 }
